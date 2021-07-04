@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/labs/lab_tpcs/lab_2_1tpcs/lab2_1.vhd
+source_file = 1, D:/labs/lab_tpcs/lab_2_1tpcs/lab2_1_tb.vhd
+source_file = 1, D:/labs/lab_tpcs/lab_2_1tpcs/db/lab2_1.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = lab2_1
+instance = comp, \x[1]~I\, x[1], lab2_1, 1
+instance = comp, \x[4]~I\, x[4], lab2_1, 1
+instance = comp, \x[5]~I\, x[5], lab2_1, 1
+instance = comp, \y~0\, y~0, lab2_1, 1
+instance = comp, \y~I\, y, lab2_1, 1
+instance = comp, \x[2]~I\, x[2], lab2_1, 1
+instance = comp, \x[3]~I\, x[3], lab2_1, 1
