@@ -1,5 +1,5 @@
 # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# do lab2_3_run_msim_rtl_vhdl.do 
+# do lab_4_1_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -10,49 +10,35 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {D:/labs/lab_tpcs/lab_2_3tpcs/package2_3.vhd}
+# vcom -93 -work work {D:/labs/lab_tpcs/lab_4/lab_4.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package package2_3
-# vcom -93 -work work {D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3.vhd}
+# -- Compiling entity lab_4
+# -- Compiling architecture rtl of lab_4
+# 
+# vcom -93 -work work {D:/labs/lab_tpcs/lab_4/tb_lab_4.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package package2_3
-# -- Compiling entity lab2_3
-# -- Compiling architecture rtl of lab2_3
+# -- Compiling entity tb_lab_4
+# -- Compiling architecture tb_rtl of tb_lab_4
 # 
-# vcom -93 -work work {D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3_tb.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package package2_3
-# -- Compiling entity lab2_3_tb
-# -- Compiling architecture rtl of lab2_3_tb
-# 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  testlab2_3
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testlab2_3 
-# ** Error: (vsim-3170) Could not find 'D:/labs/lab_tpcs/lab_2_3tpcs/simulation/modelsim/rtl_work.testlab2_3'.
-# 
-# Error loading design
-# Error: Error loading design 
-#        Pausing macro execution 
-# MACRO ./lab2_3_run_msim_rtl_vhdl.do PAUSED at line 13
-vsim work.lab2_3_tb
-# vsim work.lab2_3_tb 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_lab_4
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_lab_4 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.package2_3
-# Loading work.lab2_3_tb(rtl)
-# Loading work.lab2_3(rtl)
-add wave sim:/lab2_3_tb/*
-run
+# Loading work.tb_lab_4(tb_rtl)
+# Loading work.lab_4(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Simulation stop requested.

@@ -2,102 +2,74 @@ m255
 K3
 13
 cModel Technology
-Z0 dD:\labs\lab_tpcs\lab_2_3tpcs\simulation\modelsim
-Elab2_3
-Z1 w1616015038
-Z2 DPx4 work 10 package2_3 0 22 II?X[=>I=36VccNcMo_PT1
-Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
-Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z6 dD:\labs\lab_tpcs\lab_2_3tpcs\simulation\modelsim
-Z7 8D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3.vhd
-Z8 FD:/labs/lab_tpcs/lab_2_3tpcs/lab2_3.vhd
+Z0 dD:\labs\lab_tpcs\lab_4\simulation\modelsim
+Elab_4
+Z1 w1617965977
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\labs\lab_tpcs\lab_4\simulation\modelsim
+Z5 8D:/labs/lab_tpcs/lab_4/lab_4.vhd
+Z6 FD:/labs/lab_tpcs/lab_4/lab_4.vhd
 l0
-L6
-VkL83X^H383T2nVPV@H=C[0
-Z9 OV;C;10.1d;51
+L4
+V:4eEGGJ?Gz68RH=ceEzEi0
+Z7 OV;C;10.1d;51
 31
-Z10 !s108 1616015624.491000
-Z11 !s90 -reportprogress|300|-93|-work|work|D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3.vhd|
-Z12 !s107 D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3.vhd|
-Z13 o-93 -work work -O0
-Z14 tExplicit 1
-!s100 BC8V^fi:mCB41aL9>e`OL3
+Z8 !s108 1618774821.447000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/labs/lab_tpcs/lab_4/lab_4.vhd|
+Z10 !s107 D:/labs/lab_tpcs/lab_4/lab_4.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 Q>Q45Wh9BN2;9o=N__:6?0
 !i10b 1
 Artl
 R2
 R3
-R4
-R5
-DEx4 work 6 lab2_3 0 22 kL83X^H383T2nVPV@H=C[0
-l15
-L14
-VIb[O2L0D68UX5NKm::hB42
-R9
+DEx4 work 5 lab_4 0 22 :4eEGGJ?Gz68RH=ceEzEi0
+l24
+L16
+V6U6GWh:9;:<P9NKI@;]Nj2
+R7
 31
+R8
+R9
 R10
 R11
 R12
-R13
-R14
-!s100 l?Xgd@37XEUXDNQ53=S6X3
+!s100 ;oLS;cBF::^jI3IaPNSW01
 !i10b 1
-Elab2_3_tb
-Z15 w1616015291
+Etb_lab_4
+Z13 w1618774782
 R2
 R3
 R4
-R5
-R6
-Z16 8D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3_tb.vhd
-Z17 FD:/labs/lab_tpcs/lab_2_3tpcs/lab2_3_tb.vhd
+Z14 8D:/labs/lab_tpcs/lab_4/tb_lab_4.vhd
+Z15 FD:/labs/lab_tpcs/lab_4/tb_lab_4.vhd
 l0
-L5
-VNN_CB=2_H::@><XEA`c3K3
-!s100 EjaP>IUOo`UgVBfD<b81=2
-R9
+L4
+V4GfB2:TN>_mSmL39;4Q?j3
+!s100 3PMLmg^lgW4YUUTFaV76]3
+R7
 31
 !i10b 1
-Z18 !s108 1616015624.780000
-Z19 !s90 -reportprogress|300|-93|-work|work|D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3_tb.vhd|
-Z20 !s107 D:/labs/lab_tpcs/lab_2_3tpcs/lab2_3_tb.vhd|
-R13
-R14
-Artl
+Z16 !s108 1618774821.913000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/labs/lab_tpcs/lab_4/tb_lab_4.vhd|
+Z18 !s107 D:/labs/lab_tpcs/lab_4/tb_lab_4.vhd|
+R11
+R12
+Atb_rtl
 R2
 R3
-R4
-R5
-DEx4 work 9 lab2_3_tb 0 22 NN_CB=2_H::@><XEA`c3K3
+DEx4 work 8 tb_lab_4 0 22 4GfB2:TN>_mSmL39;4Q?j3
 l19
-L10
-VEKbN3cQJnZh>LCU_HF5`A1
-!s100 feNbZ3HAC8E2R@gPOh<K03
-R9
+L7
+VhJzH7f2PI:D3^aiF6_a960
+!s100 =S1Vg;T3]OFbXfYBO<gO>2
+R7
 31
 !i10b 1
+R16
+R17
 R18
-R19
-R20
-R13
-R14
-Ppackage2_3
-R3
-R4
-R5
-w1616015087
-R6
-8D:/labs/lab_tpcs/lab_2_3tpcs/package2_3.vhd
-FD:/labs/lab_tpcs/lab_2_3tpcs/package2_3.vhd
-l0
-L5
-VII?X[=>I=36VccNcMo_PT1
-R9
-31
-R13
-R14
-!s100 37:7KOaI@RPCTh`@zBVhA3
-!i10b 1
-!s108 1616015624.144000
-!s90 -reportprogress|300|-93|-work|work|D:/labs/lab_tpcs/lab_2_3tpcs/package2_3.vhd|
-!s107 D:/labs/lab_tpcs/lab_2_3tpcs/package2_3.vhd|
+R11
+R12
