@@ -1,0 +1,228 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab_1_tpcs_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/labs/lab_tpcs/lab_1tpcs/lab_1_tpcs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab_1_tpcs
+# -- Compiling architecture rtl of lab_1_tpcs
+# 
+# vcom -93 -work work {D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab_1test
+# -- Compiling architecture rtl of lab_1test
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  lab_1test
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.lab_1test
+# vsim work.lab_1test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab_1test(rtl)
+# Loading work.lab_1_tpcs(rtl)
+# ** Error: (vsim-3732) D:/labs/lab_tpcs/lab_1tpcs/simulation/modelsim/lab_1_tpcst.vhd(21): No default binding for component instance 'inst1'.
+# 
+#    The following component port is not on the entity:
+#           y
+# 
+#         Region: /lab_1test/inst1
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./lab_1_tpcs_run_msim_rtl_vhdl.do PAUSED at line 12
